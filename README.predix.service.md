@@ -3,10 +3,10 @@
  
  
 ###Predix Composite Model
-![alt tag](https://github.build.ge.com/Reachback-Services/rs-predix-service/blob/develop/docs/RAAS-Predix-Comp-Model.png)
+![alt tag](docs/RAAS-Predix-Comp-Model.png)
 
 ###Predix Sequence Diagram
-![alt tag](https://github.build.ge.com/Reachback-Services/rs-predix-service/blob/develop/docs/RAAS-Predix-Seq-Diagram.png)
+![alt tag](docs/RAAS-Predix-Seq-Diagram.png)
 
 Creating a Blobstore Service Instance
 Note: The following steps are performed using the Cloud Foundry CLI. To complete the steps in a web browser, follow the instructions on the service page in the Predix Catalog.
