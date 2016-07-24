@@ -43,7 +43,7 @@ openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days XXX
 ## Usage
 
 ###Usage Modeling
-![alt tag](https://github.build.ge.com/Reachback-Services/rs-connectivity-service/blob/develop/docs/reachback-usage-modeling.png)
+![alt tag](docs/reachback-usage-modeling.png)
 
 ###Gateway
 ```javascript
