@@ -107,14 +107,21 @@ The command shows the environment variables, which contain your basic authorizat
 
 ####URL
 ```
-<predix_service_uri>/v1/settings
+<predix_service_uri>/v1/setting
 ```
 
 ####Configuration
 
 Method | Description
 --- | ---
-POST | Create the RAAS Gateway settings
-PUT | Update the settings
-GET | Get the current settings
-DEL | Delete the settings
+POST | Create the RAAS Gateway setting
+PUT | Update the setting
+GET | Get the current setting
+DEL | Delete the setting
+
+####Header
+```
+Authorization: Bearer <your UAA token>
+Predix-Zone-Id: <Predix-Zone-Id>
+Content-Type: application/json
+```
