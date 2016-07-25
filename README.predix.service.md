@@ -1,12 +1,14 @@
 # rs-predix-service
  - The RAAS Predix/CF Service.
 
+[Creating a RAAS Gateway Service Instance](#predix-composite-model) 
+[Creating a RAAS Gateway Service Instance](#predix-sequence-diagram) 
 [Creating a RAAS Gateway Service Instance](#creating-a-raas-gateway-service-instance) 
  
-###Predix Composite Model
+##Predix Composite Model
 ![alt tag](docs/RAAS-Predix-Comp-Model.png)
 
-###Predix Sequence Diagram
+##Predix Sequence Diagram
 ![alt tag](docs/RAAS-Predix-Seq-Diagram.png)
 
 ##Creating a RAAS Gateway Service Instance
