@@ -54,9 +54,9 @@ Where:
 `<plan>` – the plan associated with the service.
 
 `<my_raas_gateway_instance>` – the service instance you create.
-Binding an Application to a Blobstore Service Instance
+Binding an Application to a RAAS Gateway Service Instance
 
-You can use any S3-compatible client to connect to your Blobstore to store and retrieve objects. Before binding an application to a Blobstore service instance, you must push your application to Cloud Foundry. From your application's project directory, on a command line, enter:
+Before binding an application to a Blobstore service instance, you must push your application to Cloud Foundry. From your application's project directory, on a command line, enter:
 ```
 cf push <application_name>
 ```
