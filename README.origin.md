@@ -1,6 +1,20 @@
 # rs-connectivity-service
  - WebSocket tunneling developed in Node - for any Cloud Computing environment.
 
+* [Vision](#vision) 
+* [Features Implemented](#features-implemented) 
+* [Work in progress](#work-in-progress) 
+* [Installation](#installation) 
+* [Generate a self-signed TLS/SSL Certificate with OpenSSL](#generate-a-self-signed-tlsssl-certificate-with-openSSL) 
+* [Usage](#usage)
+   * [Usage Modeling](#usage-modeling)
+   * [Gateway](#gateway)
+   * [Client](#client)
+   * [Gateway](#gateway)
+   * [Event handling](#event-handling)
+* [Reference](#reference)
+   * [Release Notes](#release-notes)
+
 ##Vision
 - Create smarter Distributed Computing System through connectivity.
 - Provide manageable and scalable connectivity service for Internal/External GE customers and extend the Predix platform capability.
@@ -227,6 +241,7 @@ DEBUG=rs:client
 DEBUG=rs:server
 
 ##Reference
+
 ####Project Home:
 https://github.build.ge.com/pages/212359746/ph-connectivity-node-service
 
