@@ -80,6 +80,7 @@ The command shows the environment variables, which contain your basic authorizat
      "client_id": "<client_id>",
      "server_id": "<server_id>",
      "load_balancer_uri": "<load_balancer_uri>",
+     "predix_service_uri":"<predix_service_uri>"
      "zone-http-header-name":"Predix-Zone-Id",
      "zone-http-header-value":"<Predix-Zone-Id>",
      "zone-token-scopes":[
@@ -105,7 +106,9 @@ The command shows the environment variables, which contain your basic authorizat
 ##RAAS Gateway APIs
 
 ####URL
-`/v1/settings`
+```
+<predix_service_uri>/v1/settings
+```
 
 ####Configuration
 
