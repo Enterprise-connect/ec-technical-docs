@@ -104,6 +104,9 @@ The command shows the environment variables, which contain your basic authorizat
 
 ##RAAS Gateway APIs
 
+####URL
+`/v1/settings`
+
 ####Configuration
 
 Method | Description
