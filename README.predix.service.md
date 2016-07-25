@@ -8,7 +8,7 @@
 ###Predix Sequence Diagram
 ![alt tag](docs/RAAS-Predix-Seq-Diagram.png)
 
-[##Creating a RAAS Gateway Service Instance](#Creating-a-RAAS-Gateway-Service-Instance)
+##Creating a RAAS Gateway Service Instance(#Creating-a-RAAS-Gateway-Service-Instance)
 > Note: The following steps are performed using the Cloud Foundry CLI. To complete the steps in a web browser, follow the instructions on the service page in the Predix Catalog.
 
 ####Use the Cloud Foundry CLI to log into Cloud Foundry.
