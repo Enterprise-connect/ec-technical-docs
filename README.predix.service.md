@@ -1,5 +1,4 @@
-# rs-predix-service
- - The RAAS Predix/CF Service.
+# RAAS Predix Gateway Service Usage Docs
 
 * [Predix Composite Model](#predix-composite-model) 
 * [Predix Sequence Diagram](#predix-sequence-diagram) 
