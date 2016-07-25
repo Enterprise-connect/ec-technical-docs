@@ -129,11 +129,11 @@ Content-Type: application/json
 ####Payload
 ```json
 {
-    clients: {
-    'client1':{
-        auth:{  
-        type: 'oauth',//oauth,basic 
-        clientId: 'prasad-client1',
+    "clients": {
+    "client1":{
+        "auth":{  
+        "type": "oauth",//oauth,basic 
+        "clientId": "prasad-client1",
         clientSecret: 'hellopredix',
         authUrl: 'https://d1c6e280-56a6-4c5e-a0a8-62dae676b868.predix-uaa.run.aws-usw02-pr.ice.predix.io'
         },
