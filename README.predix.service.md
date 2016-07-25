@@ -50,38 +50,49 @@ cf push <application_name>
 You must bind your RAAS Gateway service instance to your application to provision connection details for your service instance in the VCAP environment variables. Cloud Foundry runtime uses VCAP_SERVICES environment variables to communicate with a deployed application about its environment.
 
 Use the Cloud Foundry CLI to log into Cloud Foundry.
-```shell
+```
 cf login
 ```
+
 Bind your application to the service instance you created.
-cf bind-service <application_name> <my_blobstore_instance>
+```
+cf bind-service <application_name> <my_raas_gateway_instance>
+```
+
 Restage your application to ensure the environment variable changes take effect:
+```
 cf restage <application_name>
+```
+
 To view the environment variables for your application, enter:
+```
 cf env <application_name>
+```
+
 The command shows the environment variables, which contain your basic authorization credentials, client ID, and the endpoint URI, as shown in the following example:
+```
 "VCAP_SERVICES": {
-  "predix-blobstore": [
+  "raas-gateway": [
    {
     "credentials": {
-     "access_key_id": "<access_key>",
-     "bucket_name": “bucket-<instanceID>",
-     "host": "<host_name>",
-     "secret_access_key": “<secret_access_key_value>",
-     "url": "https://<blob_store_url>"
+     "client_id": "<client_id>",
+     "server_id": "<server_id>",
+     "load_balancer_uri": "<load_balancer_uri>",
+     "Predix-Zone-Name": "<predix_zone_id>",
+     "Predix-Zone-Value": "<predix_zone_value>"
     },
-    "label": "predix-blobstore",
-    "name": "<blob_store_service_instance>",
+    "label": "raas-gateway",
+    "name": "<raas_gateway_service_instance>",
     "plan": "<plan>",
     "provider": null,
     "syslog_drain_url": null,
     "tags": [
-     "blobstore",
-     "blob-store",
-     "blob store"
+     "raas-gateway",
+     "raas predix gateway",
+     "raas gateway"
     ]
    }
   ]
  }
 }
-
+```
