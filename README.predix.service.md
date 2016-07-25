@@ -3,6 +3,7 @@
 * [Predix Composite Model](#predix-composite-model) 
 * [Predix Sequence Diagram](#predix-sequence-diagram) 
 * [Creating a RAAS Gateway Service Instance](#creating-a-raas-gateway-service-instance) 
+* [RAAS Gateway APIs](#raas-gateway-apis)
  
 ##Predix Composite Model
 ![alt tag](docs/RAAS-Predix-Comp-Model.png)
