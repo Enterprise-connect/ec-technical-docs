@@ -78,8 +78,11 @@ The command shows the environment variables, which contain your basic authorizat
      "client_id": "<client_id>",
      "server_id": "<server_id>",
      "load_balancer_uri": "<load_balancer_uri>",
-     "Predix-Zone-Name": "<predix_zone_id>",
-     "Predix-Zone-Value": "<predix_zone_value>"
+     "zone-http-header-name":"Predix-Zone-Id",
+     "zone-http-header-value":"<Predix-Zone-Id>",
+     "zone-token-scopes":[
+        "raas.zones.<Predix-Zone-Id>.user"
+      ]
     },
     "label": "raas-gateway",
     "name": "<raas_gateway_service_instance>",
