@@ -8,13 +8,14 @@
 ###Predix Sequence Diagram
 ![alt tag](docs/RAAS-Predix-Seq-Diagram.png)
 
-##Creating a RAAS Service Instance
+##Creating a RAAS Gateway Service Instance
 > Note: The following steps are performed using the Cloud Foundry CLI. To complete the steps in a web browser, follow the instructions on the service page in the Predix Catalog.
 
 ####Use the Cloud Foundry CLI to log into Cloud Foundry.
-```shellscript
+```
 cf login -a <API_Endpoint>
 ```
+
 The value of <API_Endpoint> is available in the Predix Invitation email that you get when you sign-up to Predix.io. Depending on your Predix.io registration, the value of <API_Endpoint> is one of the following:
 Predix Basic
 https://api.system.aws-usw02-pr.ice.predix.io
@@ -22,12 +23,17 @@ https://api.system.aws-usw02-pr.ice.predix.io
 Predix Select
 https://api.system.asv-pr.ice.predix.io
 
-List the services in the Cloud Foundry marketplace by entering:
+####List the services in the Cloud Foundry marketplace by entering:
+```
 cf marketplace
+```
 You see the available services and associated plans.
-Create a Blobstore service instance by entering:
+
+Create a RAAS Gateway Service instance by entering:
+```
 cf create-service predix-blobstore <plan> <my_blobstore_instance> 
-  
+```
+
 Use only alphanumeric characters, underscores (_), and hyphens (-) for your service instance name.
 Where:
 <plan> – the plan associated with the service.
