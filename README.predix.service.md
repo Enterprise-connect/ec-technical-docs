@@ -11,6 +11,9 @@
   * [Header](#header)
   * [Payload](#payload)
   * [HTTP Response](#http-response)
+* [RAAS Client CLI/library/Daemon](raas-client-cli-library-daemon)
+* [RAAS Server CLI/library/Daemon](raas-server-cli-library-daemon)
+
  
 ##Predix Composite Model
 ![alt tag](docs/RAAS-Predix-Comp-Model.png)
@@ -209,3 +212,7 @@ HTTP Status Code: 500
 }
 
 ```
+
+##RAAS Client CLI/library/Daemon
+
+##RAAS Server CLI/library/Daemon
