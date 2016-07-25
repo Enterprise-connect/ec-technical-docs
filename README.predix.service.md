@@ -113,7 +113,7 @@ The command shows the environment variables, which contain your basic authorizat
 
 ####Configuration
 
-Method | Description
+HTTP Request Method | Description
 --- | ---
 POST | Create the RAAS Gateway setting
 PUT | Update the setting
@@ -170,4 +170,35 @@ Content-Type: application/json
         ]
     }
 }
+```
+
+####HTTP Response
+```
+HTTP Status Code: 200
+{
+ "status":"Created",
+ "Setting":<setting object>
+}
+
+HTTP Status Code: 201
+{
+ "status":"Updated",
+ "Setting":<setting object>
+}
+
+HTTP Status Code: 301
+{
+ "status":"Deleted"
+}
+
+HTTP Status Code: 401
+{
+  "status":"Unauthorized"
+}
+
+HTTP Status Code: 500
+{
+  "status":"Internal Error"
+}
+
 ```
