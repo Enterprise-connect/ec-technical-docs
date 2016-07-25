@@ -101,3 +101,14 @@ The command shows the environment variables, which contain your basic authorizat
  }
 }
 ```
+
+##RAAS Gateway APIs
+
+####Configuration
+
+Method | Description
+--- | ---
+POST | Create the RAAS Gateway settings
+PUT | Update the settings
+GET | Get the current settings
+DEL | Delete the settings
