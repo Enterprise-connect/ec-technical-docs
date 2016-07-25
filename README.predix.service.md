@@ -3,7 +3,7 @@
 1. [Predix Composite Model](#predix-composite-model) 
 2. [Predix Sequence Diagram](#predix-sequence-diagram) 
 3. [Creating a RAAS Gateway Service Instance](#creating-a-raas-gateway-service-instance).
-..* [Use the Cloud Foundry CLI to log into Cloud Foundry](use-the-cloud-foundry-cli-to-log-into-cloud-foundry)
+⋅⋅* [Use the Cloud Foundry CLI to log into Cloud Foundry](use-the-cloud-foundry-cli-to-log-into-cloud-foundry)
 4. [RAAS Gateway APIs](#raas-gateway-apis)
  
 ##Predix Composite Model
