@@ -1,5 +1,4 @@
 # rs-connectivity-service
- - WebSocket tunneling developed in Node - for any Cloud Computing environment.
 
 * [Vision](#vision) 
 * [Features Implemented](#features-implemented) 
