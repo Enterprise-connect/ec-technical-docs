@@ -38,10 +38,14 @@ cf create-service predix-blobstore <plan> <my_blobstore_instance>
 Use only alphanumeric characters, underscores (_), and hyphens (-) for your service instance name.
 Where:
 <plan> – the plan associated with the service.
+
 <my_blobstore_instance> – the service instance you create.
 Binding an Application to a Blobstore Service Instance
+
 You can use any S3-compatible client to connect to your Blobstore to store and retrieve objects. Before binding an application to a Blobstore service instance, you must push your application to Cloud Foundry. From your application's project directory, on a command line, enter:
+```
 cf push <application_name>
+```
 You must bind your Blobstore service instance to your application to provision connection details for your service instance in the VCAP environment variables. Cloud Foundry runtime uses VCAP_SERVICES environment variables to communicate with a deployed application about its environment.
 
 Use the Cloud Foundry CLI to log into Cloud Foundry.
