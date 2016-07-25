@@ -6,6 +6,11 @@
   * [Use the Cloud Foundry CLI to log into Cloud Foundry](#use-the-cloud-foundry-cli-to-log-into-cloud-foundry)
   * [List the services in the Cloud Foundry marketplace by entering](#list-the-services-in-the-cloud-foundry-marketplace-by-entering)
 * [RAAS Gateway APIs](#raas-gateway-apis)
+  * [Service URL](#service-url)
+  * [Configuration](#configuration)
+  * [Header](#header)
+  * [Payload](#payload)
+  * [HTTP Response](#http-response)
  
 ##Predix Composite Model
 ![alt tag](docs/RAAS-Predix-Comp-Model.png)
@@ -108,7 +113,7 @@ The command shows the environment variables, which contain your basic authorizat
 
 ##RAAS Gateway APIs
 
-####URL
+####Service URL
 ```
 <predix_service_uri>/v1/setting
 ```
