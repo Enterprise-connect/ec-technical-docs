@@ -170,7 +170,7 @@ Content-Type: application/json
     }
     },
     "servers": {
-    "server1:{
+    "server1":{
         "auth":{  
         "type": "basic",
         "secret": "143434"
@@ -194,7 +194,7 @@ Content-Type: application/json
         "auth":{
         "type": "oauth",//oauth,basic 
         "clientId": "prasad-server1",
-        "clientSecret": hellopredix",
+        "clientSecret": "hellopredix",
         "authUrl": "https://d1c6e280-56a6-4c5e-a0a8-62dae676b868.predix-uaa.run.aws-usw02-pr.ice.predix.io"
         },
         //cidr subnetting. ipv4/ipv6 suppported.
