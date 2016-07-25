@@ -32,14 +32,15 @@ You see the available services and associated plans.
 
 Create a RAAS Gateway Service instance by entering:
 ```
-cf create-service predix-blobstore <plan> <my_blobstore_instance> 
+cf create-service raas_gateway <plan> <my_raas_gateway_instance> 
 ```
 
 Use only alphanumeric characters, underscores (_), and hyphens (-) for your service instance name.
 Where:
-<plan> – the plan associated with the service.
 
-<my_blobstore_instance> – the service instance you create.
+`<plan>` – the plan associated with the service.
+
+`<my_blobstore_instance>` – the service instance you create.
 Binding an Application to a Blobstore Service Instance
 
 You can use any S3-compatible client to connect to your Blobstore to store and retrieve objects. Before binding an application to a Blobstore service instance, you must push your application to Cloud Foundry. From your application's project directory, on a command line, enter:
