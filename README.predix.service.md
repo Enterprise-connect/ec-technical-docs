@@ -1,10 +1,10 @@
 # RAAS Predix Gateway Service Usage Docs
 
-* [Predix Composite Model](#predix-composite-model) 
-* [Predix Sequence Diagram](#predix-sequence-diagram) 
-* [Creating a RAAS Gateway Service Instance](#creating-a-raas-gateway-service-instance).
-..- [Use the Cloud Foundry CLI to log into Cloud Foundry](use-the-cloud-foundry-cli-to-log-into-cloud-foundry)
-* [RAAS Gateway APIs](#raas-gateway-apis)
+1. [Predix Composite Model](#predix-composite-model) 
+2. [Predix Sequence Diagram](#predix-sequence-diagram) 
+3. [Creating a RAAS Gateway Service Instance](#creating-a-raas-gateway-service-instance).
+..* [Use the Cloud Foundry CLI to log into Cloud Foundry](use-the-cloud-foundry-cli-to-log-into-cloud-foundry)
+4. [RAAS Gateway APIs](#raas-gateway-apis)
  
 ##Predix Composite Model
 ![alt tag](docs/RAAS-Predix-Comp-Model.png)
