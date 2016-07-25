@@ -17,6 +17,7 @@ cf login -a <API_Endpoint>
 ```
 
 The value of <API_Endpoint> is available in the Predix Invitation email that you get when you sign-up to Predix.io. Depending on your Predix.io registration, the value of <API_Endpoint> is one of the following:
+
 Predix Basic
 https://api.system.aws-usw02-pr.ice.predix.io
 
