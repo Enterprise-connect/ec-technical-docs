@@ -16,7 +16,7 @@
 
  
 ##Predix Composite Model
-![alt tag](docs/RAAS-Predix-Comp-Model.png)
+![alt tag](docs/RAAS-Predix-Comp-Model-Simp.png)
 
 ##Predix Sequence Diagram
 ![alt tag](docs/RAAS-Predix-Seq-Diagram.png)
